@@ -1,6 +1,6 @@
 import MusicCard from "./MusicCard";
 
-export default function Main({selectNoteCard}) {
+export default function Main({onNoteClick}) {
     const notesArray = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
     function shuffleArray(array) {
         for (var i = array.length - 1; i > 0; i--) {
@@ -13,7 +13,7 @@ export default function Main({selectNoteCard}) {
     shuffleArray(notesArray);
     let noteCards = [];
     for (let i = 0; i < notesArray.length; i++) {
-        noteCards.push(<MusicCard key={i} note={notesArray[i]} onClick={selectNoteCard} />)
+        noteCards.push(<MusicCard key={i} note={notesArray[i]} onNoteClick={onNoteClick} />)
     }
     return (
         <div className="Main">

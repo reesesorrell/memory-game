@@ -10,16 +10,18 @@ function App() {
 
   const possibleNotes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 
-  const selectNoteCard = (selectedNote) => {
+  const selectNoteCard = (e) => {
+    let selectedNote = e.target.id;
     if(selectedNote == note) {
       setScore(score + 1);
+      if(score + 1 > highScore) {
+        setHighScore(score+1);
+      }
     }
     else {
       setScore(0);
     }
-    if(score > highScore) {
-      setHighScore(score);
-    }
+
     const randomNote = possibleNotes[Math.floor(Math.random() * possibleNotes.length)];
     setNote(randomNote)
   }
@@ -27,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Header note={note} score={score} highScore={highScore}/>
-      <Main onNoteClick={(e) => {selectNoteCard(e.value)}}/>
+      <Main onNoteClick={selectNoteCard}/>
     </div>
   );
 }

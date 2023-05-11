@@ -4,3 +4,7 @@
     background-color: red;
     margin: 10px;
 }
+
+.MusicCard:hover {
+    cursor: pointer;
+}
