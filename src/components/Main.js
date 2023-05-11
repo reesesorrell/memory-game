@@ -1,4 +1,5 @@
 import MusicCard from "./MusicCard";
+import "../styles/Main.css"
 
 export default function Main({onNoteClick}) {
     const notesArray = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
