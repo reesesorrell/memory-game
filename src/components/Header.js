@@ -3,8 +3,8 @@ import "../styles/Header.css"
 export default function Header({note, score, highScore}) {
     return (
         <div className="Header">
-            <div className="title">Music Memory Game</div>
-            <div className="note-description">Current note is: {note}</div>
+            <div className="title">Perfect Pitch Test</div>
+            <div className="note-description">Find this note: {note}</div>
             <div className="score-board">
                 <div className="score-display">Score: {score}</div>
                 <div className="high-score-display">High Score: {highScore}</div>
