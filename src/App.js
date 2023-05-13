@@ -1,5 +1,6 @@
 import Header from './components/Header.js';
 import Main from './components/Main.js';
+import GreyScreen from './components/GreyScreen.js';
 import { useState } from 'react';
 
 
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className="App">
+      <GreyScreen />
       <Header note={note} score={score} highScore={highScore}/>
       <Main onNoteClick={selectNoteCard}/>
     </div>

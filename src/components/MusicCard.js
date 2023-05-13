@@ -7,6 +7,6 @@ export default function MusicCard({note, onNoteClick}) {
         new Audio(require("../music-notes/" + note + highOrLow + ".mp3")).play();
     }
     return (
-        <div className="MusicCard" onMouseOver={play} onClick={onNoteClick} id={note} muted="muted">{note}</div>
+        <div className="MusicCard" onMouseOver={play} onClick={onNoteClick} id={note} muted="muted"></div>
     )
 }

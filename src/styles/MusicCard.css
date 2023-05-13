@@ -1,11 +1,13 @@
 .MusicCard {
     width: 200px;
     height: 100px;
-    background-color: red;
+    background-color: gray;
+    border-radius: 4%;
     margin: 10px;
     margin-bottom: 100px;
 }
 
 .MusicCard:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
