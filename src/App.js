@@ -15,12 +15,12 @@ function App() {
 
   const possibleNotes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 
+  //on component did mount, shuffle notes array
   useEffect(() => {
     setNotesArray(shuffleArray(notesArray));
   }, []);
 
   async function selectNoteCard(e) {
-    console.log(e.target);
     let selectedNote = e.target.id;
     if(selectedNote == note) {
       setScore(score + 1);
@@ -34,7 +34,7 @@ function App() {
     setCardsFlipped(true);
     await delay(3000);
     setCardsFlipped(false);
-    await delay(500);
+    await delay(500); //include delay so that new cards can't be seen while being flipped
     const randomNote = possibleNotes[Math.floor(Math.random() * possibleNotes.length)];
     setNotesArray(shuffleArray(notesArray));
     setNote(randomNote)
