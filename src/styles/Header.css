@@ -1,11 +1,31 @@
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(../fonts/ChopinScript.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
 .Header {
-    display: flex;
-    justify-content:space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
-    font-size: xx-large;
+    font-size: 35px;
     margin-right: 70px;
     position: fixed;
     width: 100%;
     margin-top: 3%;
-    color: #AEECEF;
+    color: black;
+    font-family: 'MyFont';
+}
+
+.note {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    font-size: xx-large;
+}
+
+.title,
+.note-description {
+    font-size: xxx-large;
 }

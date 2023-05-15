@@ -4,6 +4,7 @@ import "./styles/App.css"
 import MusicCard from "./components/MusicCard";
 import "./styles/Main.css"
 import { useEffect, useState } from 'react';
+import background from "./background1.png";
 
 
 function App() {
@@ -64,9 +65,10 @@ function App() {
     <div className="App">
       <GreyScreen />
       <Header note={note} score={score} highScore={highScore}/>
+      <div className='background' style={{ backgroundImage: `url(${background})`, backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat'}}></div>
       <div className="Main">
-          {noteCards}
-      </div>
+            {noteCards}
+        </div>
     </div>
   );
 }
