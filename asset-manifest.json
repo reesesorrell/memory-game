@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.fdf43dc7.css",
+    "main.js": "/memory-game/static/js/main.e5fc0c83.js",
+    "static/media/background1.png": "/memory-game/static/media/background1.58ad82495fd6b18ec1d3.png",
+    "static/media/A2.mp3": "/memory-game/static/media/A2.36124e49613bdf71a2ac.mp3",
+    "static/media/A3.mp3": "/memory-game/static/media/A3.d5d008181da997a06311.mp3",
+    "static/media/Ab2.mp3": "/memory-game/static/media/Ab2.051fd9e233cce417c196.mp3",
+    "static/media/Ab3.mp3": "/memory-game/static/media/Ab3.d9774ef758b52f19275b.mp3",
+    "static/media/B2.mp3": "/memory-game/static/media/B2.685e162ee26c6bca5f25.mp3",
+    "static/media/B3.mp3": "/memory-game/static/media/B3.6dc1f74387600c520981.mp3",
+    "static/media/Bb2.mp3": "/memory-game/static/media/Bb2.f0004b06de11bb6a0540.mp3",
+    "static/media/Bb3.mp3": "/memory-game/static/media/Bb3.6b4326be821563ade6da.mp3",
+    "static/media/C2.mp3": "/memory-game/static/media/C2.65a9c4c8b8f536cb8d72.mp3",
+    "static/media/C3.mp3": "/memory-game/static/media/C3.1bba6da28bdcbfcc4b66.mp3",
+    "static/media/D2.mp3": "/memory-game/static/media/D2.6789d460933e2c4e8b1d.mp3",
+    "static/media/D3.mp3": "/memory-game/static/media/D3.79a9cd994e00987209af.mp3",
+    "static/media/Db2.mp3": "/memory-game/static/media/Db2.e1ead84c037c62e9cb19.mp3",
+    "static/media/Db3.mp3": "/memory-game/static/media/Db3.ae0f6be5b2f1b930eff5.mp3",
+    "static/media/E2.mp3": "/memory-game/static/media/E2.e06f743f72dbc40eb8c4.mp3",
+    "static/media/E3.mp3": "/memory-game/static/media/E3.64cfafa39963f8f323d1.mp3",
+    "static/media/Eb2.mp3": "/memory-game/static/media/Eb2.fd653ac91a2885926ad0.mp3",
+    "static/media/Eb3.mp3": "/memory-game/static/media/Eb3.e4bc67fa79b7b0b61722.mp3",
+    "static/media/F2.mp3": "/memory-game/static/media/F2.c9bce5e473db6dc0b22f.mp3",
+    "static/media/F3.mp3": "/memory-game/static/media/F3.9aa16a227a6a381ed52e.mp3",
+    "static/media/G2.mp3": "/memory-game/static/media/G2.b7385a1b5d931e95790c.mp3",
+    "static/media/G3.mp3": "/memory-game/static/media/G3.38965425bc4264a12738.mp3",
+    "static/media/Gb2.mp3": "/memory-game/static/media/Gb2.3e7187310f07f76f890b.mp3",
+    "static/media/Gb3.mp3": "/memory-game/static/media/Gb3.80f9a119a767a21ce515.mp3",
+    "static/media/ChopinScript.woff": "/memory-game/static/media/ChopinScript.294d294101e0ae84b924.woff",
+    "index.html": "/memory-game/index.html",
+    "main.fdf43dc7.css.map": "/memory-game/static/css/main.fdf43dc7.css.map",
+    "main.e5fc0c83.js.map": "/memory-game/static/js/main.e5fc0c83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdf43dc7.css",
+    "static/js/main.e5fc0c83.js"
+  ]
+}
