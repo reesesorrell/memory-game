@@ -19,6 +19,8 @@ function App() {
   //on component did mount, shuffle notes array
   useEffect(() => {
     setNotesArray(shuffleArray(notesArray));
+    const randomNote = possibleNotes[Math.floor(Math.random() * possibleNotes.length)];
+    setNote(randomNote);
   }, []);
 
   async function selectNoteCard(e) {
