@@ -3,7 +3,8 @@ import "../styles/MusicCard.css"
 
 export default function MusicCard({note, onNoteClick, cardsFlipped}) {
     let highOrLow = Math.round(Math.random()) + 2;
-    let audioObject = new Audio(require("../music-notes/" + note + highOrLow + ".mp3"))
+    let audioObject = new Audio(require("../music-notes/" + note + highOrLow + ".mp3"));
+    audioObject.volume = 0.2;
     function play() {
         audioObject.play();
     }
